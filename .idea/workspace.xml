@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="51c38ed9-3987-4b13-a7c0-a056122552a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2cdb80dc98e689e3921395dc931a32426f8af91d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/341e92142f6c3e249142e59cb914f041a367072f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/460fbf36e5056f8510c38d01e057968b6cd6ff60" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/5555b07b2f4cca4733269162b577ddd3c7f395fd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6c9bd4ecbce89d455cabed12673cd5982d139b06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/7905783f1a62d792235e2d346f82a711c635ed03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7c74a1b48df5b9b689c8d01c09d41d596d20d028" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8fbbd880e0fb2d5a7895c938689ce9df63f0a072" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9ec31178ca7340fabb8e932c9266d2ec70c53799" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a0814a6c267ae57490c3dc1b3e0bcf1a08a33359" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c7fa5a608e8fc82a5d25fd39ed46b5cbda90744b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c804e7a2a8be6725d0c33f0ed02ff197fd7a4be4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4dd2f83ae57d27183f8c1f89d1163a113287968" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e54c31fc38182ca41adba339f9a63887f3c5ba5c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/c/2cdb80dc98e689e3921395dc931a32426f8af91d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/4/341e92142f6c3e249142e59cb914f041a367072f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/6/460fbf36e5056f8510c38d01e057968b6cd6ff60" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/5/5555b07b2f4cca4733269162b577ddd3c7f395fd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/c/6c9bd4ecbce89d455cabed12673cd5982d139b06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/9/7905783f1a62d792235e2d346f82a711c635ed03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/c/7c74a1b48df5b9b689c8d01c09d41d596d20d028" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/f/8fbbd880e0fb2d5a7895c938689ce9df63f0a072" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/e/9ec31178ca7340fabb8e932c9266d2ec70c53799" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/0/a0814a6c267ae57490c3dc1b3e0bcf1a08a33359" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/7/c7fa5a608e8fc82a5d25fd39ed46b5cbda90744b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/8/c804e7a2a8be6725d0c33f0ed02ff197fd7a4be4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/4/e4dd2f83ae57d27183f8c1f89d1163a113287968" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/5/e54c31fc38182ca41adba339f9a63887f3c5ba5c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap15_database1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javalab/school/domain/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javalab/school/domain/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javalab/school/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javalab/school/domain/Takes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javalab/school/execution/GradeDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javalab/school/execution/GradeInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javalab/school/execution/GradeSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javalab/school/execution/GradeUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javalab/school/execution/StudentDBConnect.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2fwrlHmAna1XuAjAWWv6njQAQ35" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GradeDelete.executor": "Run",
+    "Application.GradeInsert.executor": "Run",
+    "Application.GradeSelect.executor": "Run",
+    "Application.GradeUpdate.executor": "Run",
+    "Application.StudentDBConnect.executor": "Run",
+    "Application.StudentInsert.executor": "Run",
+    "Application.StudentSelect.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/util/ojdbc7.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.javalab.school.execution" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GradeDelete">
+    <configuration name="GradeDelete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javalab.school.execution.GradeDelete" />
+      <module name="chap15_database1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javalab.school.execution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javalab.school.execution.GradeInsert" />
+      <module name="chap15_database1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javalab.school.execution.GradeSelect" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeSelect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javalab.school.execution.GradeSelect" />
+      <module name="chap15_database1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javalab.school.execution.GradeSelect" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeUpdate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javalab.school.execution.GradeUpdate" />
+      <module name="chap15_database1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javalab.school.execution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDBConnect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javalab.school.execution.StudentDBConnect" />
+      <module name="chap15_database1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javalab.school.execution.GradeSelect" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GradeDelete" />
+        <item itemvalue="Application.GradeInsert" />
+        <item itemvalue="Application.GradeSelect" />
+        <item itemvalue="Application.GradeUpdate" />
+        <item itemvalue="Application.StudentDBConnect" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-temurin-11.0.22-f644763e9732-193cb75d" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51c38ed9-3987-4b13-a7c0-a056122552a0" name="Changes" comment="" />
+      <created>1714723132158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714723132158</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/javalab/school/domain/Takes.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
