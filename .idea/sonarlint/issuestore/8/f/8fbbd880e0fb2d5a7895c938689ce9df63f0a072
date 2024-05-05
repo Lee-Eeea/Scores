@@ -1,9 +1,15 @@
 
+’
+java:S2095#"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ªƒíÈ8’ßêÇô1J$31dc83d1-4393-4ec3-b3b9-6fec77eee6c5
 ‡
-java:S2147"DCombine this catch with the one at line 16, which has the same body.(É®£8íúÏÇô1J$0b90bc85-b2df-4cb5-aa2c-8a079b20fdd3
+java:S2147"DCombine this catch with the one at line 16, which has the same body.(É®£8–ßêÇô1J$1c6f010f-6ac6-4b93-a55d-783a36ef9148
+p
+java:S4925
+"-Remove this "Class.forName()", it is useless.(ùíÄé8—ßêÇô1J$fe88a809-32f8-4035-ae5e-17670f8ec51d
 y
-java:S6437"6Revoke and change this password, as it is compromised.(¡‹©ÿ8ïúÏÇô1J$5c44bd8e-cd6e-4cb3-b24a-7e9d3f26b520
-r	java:S106"+Replace this use of System.out by a logger.(”¢€üÿÿÿÿ8ñúÏÇô1J$5cd31ced-bfa0-4bea-bda4-847efd93bd0e
-m	java:S106"+Replace this use of System.out by a logger.(ÛÉ™‘8òúÏÇô1J$7ef9e61f-c304-401e-8756-dde7e71fcedb
-m	java:S106."+Replace this use of System.out by a logger.(ì²Í­8òúÏÇô1J$2233040e-c89c-4c2d-a92d-91b7e4a96eb6
-r	java:S106C"+Replace this use of System.out by a logger.(ëˆóÅúÿÿÿÿ8óúÏÇô1J$9eb89006-86d1-4141-a460-3296c4b00dbe
+java:S6437"6Revoke and change this password, as it is compromised.(¡‹©ÿ8™ßêÇô1J$1a4a4256-dc64-4e76-8962-68e0ef3a0106
+r	java:S106"+Replace this use of System.out by a logger.(”¢€üÿÿÿÿ8šßêÇô1J$47723d5d-645d-45a6-83b4-fd2b1392496c
+r	java:S106"+Replace this use of System.out by a logger.(”˜ªÂşÿÿÿÿ8›ßêÇô1J$e076841b-5f67-4610-9341-a11e41b9bf40
+m	java:S106"+Replace this use of System.out by a logger.(ÇşÙÜ8›ßêÇô1J$10525878-393b-444a-96c0-809294e1adec
+m	java:S106*"+Replace this use of System.out by a logger.(¥é×é8œßêÇô1J$60c97003-d943-4aa4-a147-d3e877e3baab
+r	java:S106/"+Replace this use of System.out by a logger.(ÆÇâÈıÿÿÿÿ8œßêÇô1J$a876568c-6ba2-4418-8ec6-3b0217814a98

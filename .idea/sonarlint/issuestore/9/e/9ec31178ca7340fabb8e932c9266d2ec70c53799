@@ -1,10 +1,14 @@
 
-X
-java:S6437"6Revoke and change this password, as it is compromised.(šÜÄ‡øÿÿÿÿ8î‹†Çô1
-L	java:S106"+Replace this use of System.out by a logger.(”¢€üÿÿÿÿ8ğ‹†Çô1
-L	java:S106"+Replace this use of System.out by a logger.(˜«¤§ùÿÿÿÿ8ó‹†Çô1
-G	java:S106"+Replace this use of System.out by a logger.(å©ıá8ô‹†Çô1
-L	java:S106"+Replace this use of System.out by a logger.(ê‡Åêşÿÿÿÿ8ö‹†Çô1
-L	java:S106!"+Replace this use of System.out by a logger.(ã±§Ğúÿÿÿÿ8ö‹†Çô1
-G	java:S106,"+Replace this use of System.out by a logger.(šÆôù8ù‹†Çô1
-L	java:S106."+Replace this use of System.out by a logger.(™ı­¥úÿÿÿÿ8ù‹†Çô1
+‡
+java:S2147"DCombine this catch with the one at line 18, which has the same body.(É®£8ÛÚøÇô1J$18765f52-fe84-42ee-a121-f56b0db267c9
+y
+java:S6437"6Revoke and change this password, as it is compromised.(¡‹©ÿ8İÚøÇô1J$994e71c4-e584-4a61-a425-885850bfef26
+r	java:S106"+Replace this use of System.out by a logger.(”¢€üÿÿÿÿ8ŞÚøÇô1J$5ddcd56b-38d9-4f6e-bf92-4a322f81922e
+r
+java:S2093
+"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8àÚøÇô1J$e98f1b0f-6c02-4f6f-88c7-dbbeec7a2bd4
+r	java:S106 "+Replace this use of System.out by a logger.(ñÜŠéüÿÿÿÿ8àÚøÇô1J$cf8007b7-a032-4e5a-b5a5-a31dcf0004e7
+m	java:S106#"+Replace this use of System.out by a logger.(å©ıá8áÚøÇô1J$2c4cee0e-e7b1-4f70-9f49-cd465efbad20
+m	java:S106%"+Replace this use of System.out by a logger.(ú˜§8áÚøÇô1J$583c9d0f-c1a3-4f6f-aac2-4289451246d1
+m	java:S106'"+Replace this use of System.out by a logger.(ˆÎ¡8áÚøÇô1J$cbccf75d-18b2-4056-b988-155168e7f4be
+m	java:S1066"+Replace this use of System.out by a logger.(šÆôù8áÚøÇô1J$63e27502-94b6-438b-92b2-58796832e613

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51c38ed9-3987-4b13-a7c0-a056122552a0" name="Changes" comment="">
+    <list default="true" id="51c38ed9-3987-4b13-a7c0-a056122552a0" name="Changes" comment="hi">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9ec31178ca7340fabb8e932c9266d2ec70c53799" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9ec31178ca7340fabb8e932c9266d2ec70c53799" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javalab/school/execution/GradeInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalab/school/execution/GradeInsert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/javalab/school/execution/GradeSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalab/school/execution/GradeSelect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/util/ojdbc7.jar",
@@ -153,7 +156,20 @@
       <option name="presentableId" value="Default" />
       <updated>1714723132158</updated>
     </task>
+    <task id="LOCAL-00001" summary="hi">
+      <option name="closed" value="true" />
+      <created>1714916025629</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714916025629</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hi" />
+    <option name="LAST_COMMIT_MESSAGE" value="hi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

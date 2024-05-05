@@ -5,14 +5,18 @@ import java.util.Scanner;
 
 public class GradeInsert {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         Connection conn = null;
+        Scanner scanner = new Scanner(System.in);
         try {
-            conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "school", "1234");
+            Class.forName("oracle.jdbc.OracleDriver");
+            conn = DriverManager.getConnection(
+                    "jdbc:oracle:thin:@localhost:1521:orcl", "school", "1234");
             System.out.println("DB 접속 성공");
 
-            registerGrade(conn, scanner);
+            insertGrades(conn, scanner);
 
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
@@ -24,29 +28,40 @@ public class GradeInsert {
         }
     }
 
-    private static void registerGrade(Connection conn, Scanner scanner) {
-        System.out.println("[새 성적 입력]");
+    private static void insertGrades(Connection conn, Scanner scanner) {
+        System.out.println("[학생 성적 등록]");
+
+        // Gathering information
         System.out.print("학생 ID: ");
         String studentId = scanner.nextLine();
-        System.out.print("과목 코드: ");
-        String subjectCode = scanner.nextLine();
-        System.out.print("점수: ");
-        int score = scanner.nextInt();
+        System.out.print("과목: ");
+        String subject = scanner.nextLine();
+        System.out.print("성적: ");
+        String score = scanner.nextLine();
 
-        String sql = "INSERT INTO takes (student_id, subject, score) VALUES (?, ?, ?)";
-        try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
+        // PreparedStatement for inserting grades
+        PreparedStatement pstmt = null;
+        try {
+            String sql = "INSERT INTO grades (student_id, subject, score) " +
+                    "VALUES (?, ?, ?)";
+
+            pstmt = conn.prepareStatement(sql);
             pstmt.setString(1, studentId);
-            pstmt.setString(2, subjectCode);
-            pstmt.setInt(3, score);
+            pstmt.setString(2, subject);
+            pstmt.setString(3, score);
 
-            int rowsInserted = pstmt.executeUpdate();
-            if (rowsInserted > 0) {
-                System.out.println("성적이 성공적으로 등록되었습니다.");
-            } else {
-                System.out.println("성적 등록에 실패하였습니다.");
-            }
+            pstmt.executeUpdate();
+            System.out.println("성적이 성공적으로 등록되었습니다.");
         } catch (SQLException e) {
             e.printStackTrace();
+        } finally {
+            if (pstmt != null) {
+                try {
+                    pstmt.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
         }
     }
 }
